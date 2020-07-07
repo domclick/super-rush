@@ -32,7 +32,6 @@
     "@microsoft/rush": "^5.22.0"
   },
   "dependencies": {
-    "@microsoft/rush": "^5.24.1",
     "chalk": "^4.0.0",
     "load-json-file": "^6.2.0",
     "source-map-support": "^0.5.16",
