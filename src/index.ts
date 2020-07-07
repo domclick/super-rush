@@ -93,8 +93,6 @@ function interceptRushConfigRead(
 
   const source = JSON.stringify(rushConfig, null, 4);
 
-  console.log(source);
-
   return prepareReadFileResult(source, options);
 
 }
