@@ -1,8 +1,8 @@
 {
   "name": "@domclick/super-rush",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "CLI utility to join multiple Rush repositories",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "scripts": {
     "build": "run-s lint compile",
     "build:ci": "npm run build",

@@ -1,7 +1,7 @@
 
 # Super Rush
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/github/license/domclick/super-rush)](./LICENSE.md)
 
 **Super Rush** — is a handy CLI-tool that allows you to link packages
 across multiple Rush monorepos, effectively merging multiple monorepos
@@ -76,14 +76,13 @@ packages from the linked monorepos.
 Super Rush is not making any permanent changes to the original config in the file system.
 
 
+## Authors & Contributors
+
+- [Slava Fomin II](https://github.com/slavafomin) (Author)
+
+
 ## License
 
-[GPLv3 License](./LICENSE.md)
+Copyright Ⓒ 2020 [Sberbank Real Estate Centre LLC](https://domclick.ru/).
 
-Ⓒ 2020 [DomClick][domclick]
-([Sberbank][sberbank] Real Estate Centre).<br>
-All Rights Reserved.
-
-
-  [domclick]: https://domclick.ru/
-  [sberbank]: https://www.sberbank.com/index
+[MIT License](./LICENSE.md)
