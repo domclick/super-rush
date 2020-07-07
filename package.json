@@ -1,8 +1,8 @@
 {
   "name": "@domclick/super-rush",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "CLI utility to join multiple Rush repositories",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "scripts": {
     "build": "run-s lint compile",
     "build:ci": "npm run build",
@@ -32,6 +32,7 @@
     "@microsoft/rush": "^5.22.0"
   },
   "dependencies": {
+    "@microsoft/rush": "^5.24.1",
     "chalk": "^4.0.0",
     "load-json-file": "^6.2.0",
     "source-map-support": "^0.5.16",

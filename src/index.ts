@@ -1,3 +1,7 @@
+/**
+ * Copyright Ⓒ 2020 Sberbank Real Estate Centre LLC. Licensed under the MIT license.
+ * Please, see the LICENSE.md file in project's root for full licensing information.
+ */
 
 import {
   dirname,
@@ -89,6 +93,8 @@ function interceptRushConfigRead(
 
   const source = JSON.stringify(rushConfig, null, 4);
 
+  console.log(source);
+
   return prepareReadFileResult(source, options);
 
 }
@@ -127,7 +133,14 @@ function linkPackagesToRushConfig(options: {
 
     // Iterating over all projects in child monorepo and adding them
     // to the parent Rush config
-    for (const { packageName, projectFolder } of rushConfig.projects) {
+    for (const packageConfig of rushConfig.projects) {
+
+      const {
+        packageName,
+        projectFolder,
+        cyclicDependencyProjects,
+
+      } = packageConfig;
 
       const packagePath = resolvePath(project.path, projectFolder);
       const relativePackagePath = relativePath(parentProject.path, packagePath);
@@ -143,6 +156,7 @@ function linkPackagesToRushConfig(options: {
         packageName,
         projectFolder: relativePackagePath,
         shouldPublish: false,
+        cyclicDependencyProjects,
       });
 
     }
