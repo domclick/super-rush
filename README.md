@@ -1,7 +1,7 @@
 
 # Super Rush
 
-[![License: MIT](https://img.shields.io/github/license/domclick/super-rush)](./LICENSE.md)
+[![License: MIT](https://img.shields.io/github/license/domclick/super-rush?cachebust)](./LICENSE.md)
 
 **Super Rush** — is a handy CLI-tool that allows you to link packages
 across multiple Rush monorepos, effectively merging multiple monorepos
