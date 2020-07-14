@@ -83,21 +83,20 @@ Super Rush is not making any permanent changes to the original config in the fil
 
 ## Contributor Notice
 
-We are always open for open source contributions. Feel free to open an issue
-or to submit a PR. However, when submitting a PR we will ask you to sign
-our [CLA (Contributor License Agreement)][cla-text] to acknowledge that you
+We are always open for contributions. Feel free to submit an issue
+or a PR. However, when submitting a PR we will ask you to sign
+our [CLA (Contributor License Agreement)][cla-text] to confirm that you
 have the rights to submit your contributions and to give us the rights
 to actually use them.
 
 When submitting a PR our special bot will ask you to review and to sign
 our [CLA][cla-text]. This will happen only once for all our GitHub repositories.
-Sorry if this will cause you any inconveniences.
 
 
 ## License
 
 Copyright Ⓒ 2020
-[Sberbank Real Estate Centre Limited Liability Company](https://domclick.ru/).
+["Sberbank Real Estate Center" Limited Liability Company](https://domclick.ru/).
 
 [MIT License](./LICENSE.md)
 

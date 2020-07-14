@@ -1,5 +1,5 @@
 
-Copyright Ⓒ 2020 Sberbank Real Estate Centre Limited Liability Company.
+Copyright Ⓒ 2020 "Sberbank Real Estate Center" Limited Liability Company.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the "Software"),
