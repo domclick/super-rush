@@ -10,9 +10,9 @@ into a one big virtual monorepo.
 
 ## Install
 
-The package is not published on npm.
-You will need to clone it from GitHub directly and compile it yourself.
-Sorry for that.
+Install Super Rush globally using npm:
+
+`npm i -g @domclick/super-rush`
 
 
 ## Setup
