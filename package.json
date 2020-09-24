@@ -29,7 +29,7 @@
   },
   "publishConfig": {
     "@domclick:registry": "https://registry.npmjs.org",
-    "@domclick:access": "public"
+    "access": "public"
   },
   "peerDependencies": {
     "@microsoft/rush": "^5.22.0"
