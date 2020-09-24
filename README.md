@@ -1,7 +1,11 @@
 
 # Super Rush
 
-[![License: MIT](https://img.shields.io/github/license/domclick/super-rush?cachebust)](./LICENSE.md)
+[![NPM](https://img.shields.io/npm/v/@domclick/super-rush)](https://www.npmjs.com/package/@domclick/super-rush) &nbsp;
+![Node Version](https://img.shields.io/node/v/@domclick/super-rush) &nbsp;
+![Dependencies](https://img.shields.io/librariesio/release/npm/@domclick/super-rush) &nbsp;
+![Dependencies](https://img.shields.io/github/issues/domclick/super-rush) &nbsp;
+[![License: MIT](https://img.shields.io/github/license/domclick/super-rush)](./LICENSE.md)
 
 **Super Rush** — is a handy CLI-tool that allows you to link packages
 across multiple Rush monorepos, effectively merging multiple monorepos
@@ -91,6 +95,8 @@ to actually use them.
 
 When submitting a PR our special bot will ask you to review and to sign
 our [CLA][cla-text]. This will happen only once for all our GitHub repositories.
+
+Please see the [contributing guide](./CONTRIBUTING.md).
 
 
 ## License
