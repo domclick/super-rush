@@ -14,7 +14,6 @@
   "contributors": [],
   "homepage": "https://github.com/domclick/super-rush",
   "repository": "https://github.com/domclick/super-rush.git",
-  "private": true,
   "bugs": "https://github.com/domclick/super-rush/issues",
   "bin": {
     "super-rush": "bin/run"
