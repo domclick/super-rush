@@ -1,6 +1,6 @@
 {
   "name": "@domclick/super-rush",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "CLI utility to join multiple Rush repositories",
   "license": "MIT",
   "scripts": {
