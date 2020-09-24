@@ -28,7 +28,8 @@
     "node": ">=10.0.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "@domclick:registry": "https://registry.npmjs.org",
+    "@domclick:access": "public"
   },
   "peerDependencies": {
     "@microsoft/rush": "^5.22.0"
